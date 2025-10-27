@@ -1,0 +1,3 @@
+clang++ ex1.cpp -o ex1 \  -I/opt/homebrew/include \  -L/opt/homebrew/lib \  -lglfw -lGLEW -framework OpenGL
+
+clang++ file.cpp -o ex1 -framework OpenGL -framework GLUT
